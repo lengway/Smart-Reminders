@@ -50,12 +50,6 @@ A complete iOS application showcasing native iOS capabilities with clean archite
 - Interactive buttons (Done, Snooze) via AppIntents
 - Escalation level indicators
 
-### 📍 Geolocation
-- CoreLocation integration
-- Geofencing support (enter/exit/both)
-- Location picker for reminders
-- Automatic reminder activation on location triggers
-
 ### 🔔 Smart Notifications
 - Escalation-based notification levels
 - Critical alerts for high-priority reminders
@@ -259,6 +253,6 @@ The app includes an intelligent rules engine that adapts to user behavior:
 
 This is a demonstration project for educational purposes.
 
-## Author
+## Authors
 
-Created as a complete iOS application showcasing clean architecture and native iOS capabilities.
+Roman Kutbeyev, Sultan Abayev, Alibi Aibekuly, Nurali Akhmetov
