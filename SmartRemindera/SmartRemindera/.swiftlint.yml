@@ -1,0 +1,12 @@
+disabled_rules:
+  - line_length
+  - trailing_whitespace
+  - vertical_whitespace
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+included:
+  - SmartRemindera
+  - SmartRemindersCore

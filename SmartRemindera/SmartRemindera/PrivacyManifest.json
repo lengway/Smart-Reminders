@@ -1,0 +1,11 @@
+{
+  "privacyManifestVersion": "1.0",
+  "dataCategories": [
+    {
+      "identifier": "appIdentifiers",
+      "description": "User-generated reminder metadata (title, schedule, priority) stored locally in app group"
+    }
+  ],
+  "tracking": false,
+  "purpose": "Reminder scheduling and personalization are processed on-device. No data leaves the device."
+}

@@ -1,0 +1,20 @@
+%% Mermaid ERD для напоминаний
+erDiagram
+    REMINDER {
+        UUID id PK
+        string title
+        string notes
+        datetime scheduledDate
+        string priority
+        string status
+        int escalationLevel
+        datetime createdAt
+        datetime updatedAt
+    }
+
+    REMINDER ||--o{ REMINDER_HISTORY : has
+    REMINDER_HISTORY {
+        UUID reminderId FK
+        int snoozeCount
+        datetime lastSnoozedAt
+    }

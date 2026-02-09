@@ -1,0 +1,12 @@
+%% Mermaid Use Case
+sequenceDiagram
+    participant User
+    participant App
+    participant Coordinator
+    participant Repository
+
+    User->>App: Create reminder
+    App->>Coordinator: createReminder(...)
+    Coordinator->>Repository: saveReminder(reminder)
+    Repository-->>Coordinator: saved
+    Coordinator-->>App: update UI
